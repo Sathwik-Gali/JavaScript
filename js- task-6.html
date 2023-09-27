@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Instagram-Like Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+        }
+        .login-form {
+            width: 300px;
+            margin: 0 auto;
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        button {
+            background-color: #405de6;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        .forgot-password,
+        .signup-link {
+            text-decoration: none;
+            color: #333;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Instagram Login</h1>
+        <div class="login-form">
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <label for="remember-me">
+                <input type="checkbox" id="remember-me"> Remember Me
+            </label>
+            <button>Log In</button>
+            <p class="forgot-password">
+                <a href="#">Forgot Password?</a>
+            </p>
+            <p class="signup-link">
+                Don't have an account? <a href="#">Sign up here</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
